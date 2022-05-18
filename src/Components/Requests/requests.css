@@ -1,0 +1,26 @@
+.requests{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFE0EB;
+  margin-bottom: 18px;
+  padding: 5px 32px 18px ;
+}
+
+.requests__text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+  margin: 0;
+}
+
+.requests__num{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #9FA2B4;
+}

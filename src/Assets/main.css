@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../Assets/fonts/mulish-v10-latin-regular.woff2') format('woff2'),
+       url('../Assets/fonts/mulish-v10-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../Assets/fonts/mulish-v10-latin-600.woff2') format('woff2'),
+       url('../Assets/fonts/mulish-v10-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../Assets/fonts/mulish-v10-latin-700.woff2') format('woff2'),
+       url('../Assets/fonts/mulish-v10-latin-700.woff') format('woff');
+}
+
+
+body{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.admin-page{
+  display: flex;
+  align-items: flex-start;
+}

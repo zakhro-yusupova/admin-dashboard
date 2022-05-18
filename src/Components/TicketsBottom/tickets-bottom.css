@@ -1,0 +1,8 @@
+.tickets-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 27px;
+  padding-right: 30px;
+  border-top: 1px solid #DFE0EB;
+}

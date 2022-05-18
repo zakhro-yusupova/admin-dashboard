@@ -1,0 +1,61 @@
+.tasks{
+  width: 546px;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+.tasks__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tasks__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.tasks__text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #C5C7CD;
+}
+
+
+.last{
+  position: relative;
+}
+
+.last::before{
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../../Assets/img/images/active.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  border: transparent;
+}
+
+.yellow{
+  background: #FEC400;
+  color: #FFFFFF;
+}
+
+.green{
+  background: #29CC97;
+  color: #FFFFFF;
+}
+
+.secondary{
+  background-color:  #F0F1F7;
+  /* color: rgba(159, 162, 180, 1); */
+}

@@ -1,0 +1,35 @@
+.subheader__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.subheader__title{
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+  margin: 0;
+}
+
+.subheader__text{
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9FA2B4;
+ margin: 0;
+ margin-bottom: 10px;
+}
+
+.subheader__btn{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #3751FF;
+  background-color: transparent;
+  border: none;
+}

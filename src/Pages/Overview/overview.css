@@ -1,0 +1,7 @@
+.content{
+  width: 1210px;
+  height: 95vh;
+  background: rgba(247, 248, 252, 1);
+  padding-left: 30px ;
+  overflow-y: scroll ;
+}

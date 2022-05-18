@@ -1,0 +1,22 @@
+.tickets{
+width: 546px;
+background: #FFFFFF;
+border: 1px solid #DFE0EB;
+box-sizing: border-box;
+border-radius: 8px;
+
+}
+
+
+.tickets__list{
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+.none {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

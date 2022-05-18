@@ -1,0 +1,47 @@
+.card{
+width: 258px;
+display: flex;
+flex-direction: column;
+background: #FFFFFF;
+border: 1px solid #DFE0EB;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.card + .card{
+  margin-left: 30px;
+}
+
+.card:hover {
+  border-color: rgba(55, 81, 255, 1);
+  transition: 1s ease;
+  }
+
+  .card:hover .card__text{
+    color: #3751FF;
+  }
+
+
+  .card:hover .card__num{
+    color: #3751FF;
+  }
+
+.card__text{
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #9FA2B4;
+}
+
+.card__num{
+  display: block;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+  margin: 12px 0 24px;
+}

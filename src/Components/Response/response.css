@@ -1,0 +1,25 @@
+.response{
+width: 340px;
+  text-align: center;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.response__text{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9FA2B4;
+}
+
+.response__num{
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
+  margin-bottom: 24px;
+}

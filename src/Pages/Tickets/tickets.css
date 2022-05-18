@@ -1,0 +1,15 @@
+.wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F7F8FC;
+}
+
+.content{
+  width: 1170px;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+  padding: 22px 27px 22px 32px;
+  margin-left: 30px;
+}

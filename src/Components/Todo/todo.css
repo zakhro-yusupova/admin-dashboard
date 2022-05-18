@@ -1,0 +1,31 @@
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #DFE0EB;
+  padding: 6px 32px ;
+}
+
+
+.todo__text{
+  position: relative;
+  padding-left: 36px;
+}
+
+.todo__text::before{
+  display: block;
+  width: 16px;
+  height: 16px;
+  content: "";
+  position: absolute;
+  border: 2px solid #C5C7CD;
+  border-radius: 50px;
+  left: 0;
+}
+
+.todo__btn{
+  color: #FFFFFF;
+  padding: 5px 12px;
+  border-color: transparent;
+  border-radius: 8px;
+}
